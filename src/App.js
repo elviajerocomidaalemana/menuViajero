@@ -1,15 +1,27 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Main from './components/Main'
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+// import MainAlemanas from "./components/MainAlemanas";
+// import MainHolandesas from "./components/MainHolandesas";
+import Uno from "./components/Uno";
+import Dos from "./components/Dos";
+import { BrowserRouter as Route } from "react-router-dom";
+import * as Switch from 'react-router-dom'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header/>
-	  <Main/>
-	  <Footer/>
+    <div>
+      <Header />
+      <div>
+       <Switch>
+        <Route path="/" component={Uno} exact />
+        <Route path="/dos" component={Dos} exact />
+        {/* <Route path="/holand" component={MainHolandesas} exact/>  */}
+      </Switch> 
+      </div>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

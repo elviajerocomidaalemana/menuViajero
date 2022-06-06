@@ -133,7 +133,7 @@ const Row = (props) => {
     </Grid>
   );
 };
-const Main = (props: Props) => {
+const MainAlemanas = (props: Props) => {
   const {} = props;
   return (
     <div>
@@ -141,4 +141,4 @@ const Main = (props: Props) => {
     </div>
   );
 };
-export default Main;
+export default MainAlemanas;
