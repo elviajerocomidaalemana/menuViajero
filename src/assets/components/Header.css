@@ -15,3 +15,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.container{
+  background: #f39532;
+}
+.container__bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link{
+  text-decoration: none;
+  color: #f39532;
+}

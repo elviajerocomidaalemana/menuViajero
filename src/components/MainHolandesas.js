@@ -30,7 +30,7 @@ const Row = (props) => {
   );
 };
 const MainHolandesas = (props: Props) => {
-  const {} = props;
+  const {data} = props;
   return (
     <div>
       <Row data={data} />

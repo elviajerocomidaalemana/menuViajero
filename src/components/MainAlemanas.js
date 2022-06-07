@@ -134,7 +134,7 @@ const Row = (props) => {
   );
 };
 const MainAlemanas = (props: Props) => {
-  const {} = props;
+  const {data} = props;
   return (
     <div>
       <Row data={data} />
