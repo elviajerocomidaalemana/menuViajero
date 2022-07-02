@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/menu-viajero/static/css/main.de60a2a3.css",
-    "main.js": "/menu-viajero/static/js/main.96c48940.js",
-    "static/media/WhatsApp Image 2022-06-01 at 7.05.57 PM.jpeg": "/menu-viajero/static/media/WhatsApp Image 2022-06-01 at 7.05.57 PM.24779a8e58ef59a83a05.jpeg",
-    "index.html": "/menu-viajero/index.html",
-    "main.de60a2a3.css.map": "/menu-viajero/static/css/main.de60a2a3.css.map",
-    "main.96c48940.js.map": "/menu-viajero/static/js/main.96c48940.js.map"
+    "main.css": "/menuViajero/static/css/main.de60a2a3.css",
+    "main.js": "/menuViajero/static/js/main.77103b70.js",
+    "static/media/WhatsApp Image 2022-06-01 at 7.05.57 PM.jpeg": "/menuViajero/static/media/WhatsApp Image 2022-06-01 at 7.05.57 PM.24779a8e58ef59a83a05.jpeg",
+    "index.html": "/menuViajero/index.html",
+    "main.de60a2a3.css.map": "/menuViajero/static/css/main.de60a2a3.css.map",
+    "main.77103b70.js.map": "/menuViajero/static/js/main.77103b70.js.map"
   },
   "entrypoints": [
     "static/css/main.de60a2a3.css",
-    "static/js/main.96c48940.js"
+    "static/js/main.77103b70.js"
   ]
 }
