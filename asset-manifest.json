@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/menuViajero/static/css/main.de60a2a3.css",
-    "main.js": "/menuViajero/static/js/main.4aab7055.js",
-    "static/media/WhatsApp Image 2022-06-01 at 7.05.57 PM.jpeg": "/menuViajero/static/media/WhatsApp Image 2022-06-01 at 7.05.57 PM.24779a8e58ef59a83a05.jpeg",
+    "main.css": "/menuViajero/static/css/main.d4836ffa.css",
+    "main.js": "/menuViajero/static/js/main.33c134dd.js",
+    "static/media/logo-viajero-orange.png": "/menuViajero/static/media/logo-viajero-orange.7528c1d8069a1281ae2c.png",
     "index.html": "/menuViajero/index.html",
-    "main.de60a2a3.css.map": "/menuViajero/static/css/main.de60a2a3.css.map",
-    "main.4aab7055.js.map": "/menuViajero/static/js/main.4aab7055.js.map"
+    "main.d4836ffa.css.map": "/menuViajero/static/css/main.d4836ffa.css.map",
+    "main.33c134dd.js.map": "/menuViajero/static/js/main.33c134dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.de60a2a3.css",
-    "static/js/main.4aab7055.js"
+    "static/css/main.d4836ffa.css",
+    "static/js/main.33c134dd.js"
   ]
 }
