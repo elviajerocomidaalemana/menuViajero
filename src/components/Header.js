@@ -1,7 +1,7 @@
 // @flow
 import * as React from "react";
 import "../assets/components/Header.css";
-import logo from "../assets/img/WhatsApp Image 2022-06-01 at 7.05.57 PM.jpeg";
+import logo from "../assets/img/logo-viajero-orange.png";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Menu from "@mui/material/Menu";
