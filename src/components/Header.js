@@ -108,7 +108,7 @@ const Header = (props: Props) => {
             </Link>
           </Menu>
         </Grid>
-        <Grid sx={{ border: "1px solid red" }} xs={8}>
+        <Grid sx={{}} xs={8}>
           <Button
             id="basic-button"
             aria-controls={openHamb ? "basic-menu" : undefined}
