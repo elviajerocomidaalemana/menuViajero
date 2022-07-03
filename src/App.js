@@ -22,13 +22,20 @@ import MainSalchichaThuringer from "./components/MainSalchichaThuringer";
 import MainSalchichaCaracol from "./components/MainSalchichaCaracol";
 import MainSalchichaSuizaBlanca from "./components/MainSalchichaSuizaBlanca";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import * as useRouteMatch from "react-router";
+// import * as Redirect from "react-router-dom";
 
 const App = () => {
+  // const useRelativeUrl = () => {
+  //   const { url } = useRouteMatch();
+  //   return useCallback((path: string) => `${url}${path}`, [url]);
+  // };
+  // const relativeUrl = useRelativeUrl();
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<MainAlemanas />} exact />
+        <Route path="/alemana" element={<MainAlemanas />} exact />
         <Route path="/holanda" element={<MainHolandesas />} exact />
         <Route path="/rusia" element={<MainRusas />} exact />
         <Route path="/escocia" element={<MainEscocesas />} exact />
@@ -39,15 +46,36 @@ const App = () => {
         <Route path="/republica_checa" element={<MainRepublicaCheca />} exact />
         <Route path="/hberlin" element={<MainHamburguesaBerlin />} exact />
         <Route path="/hmunich" element={<MainHamburguesaMunich />} exact />
-        <Route path="/hfrancfort" element={<MainHamburguesaFrancfort />} exact />
+        <Route
+          path="/hfrancfort"
+          element={<MainHamburguesaFrancfort />}
+          exact
+        />
         <Route path="/hhamburgo" element={<MainHamburguesaHamburgo />} exact />
         <Route path="/salGruyere" element={<MainSalchichaGruyere />} exact />
-        <Route path="/salNurnberger" element={<MainSalchichaNurnberger />} exact />
-        <Route path="/salEngadiner" element={<MainSalchichaEngadiner />} exact />
+        <Route
+          path="/salNurnberger"
+          element={<MainSalchichaNurnberger />}
+          exact
+        />
+        <Route
+          path="/salEngadiner"
+          element={<MainSalchichaEngadiner />}
+          exact
+        />
         <Route path="/salBerner" element={<MainSalchichaBerner />} exact />
-        <Route path="/salThuringer" element={<MainSalchichaThuringer />} exact />
+        <Route
+          path="/salThuringer"
+          element={<MainSalchichaThuringer />}
+          exact
+        />
         <Route path="/salCaracol" element={<MainSalchichaCaracol />} exact />
-        <Route path="/salSuizaBlanca" element={<MainSalchichaSuizaBlanca />} exact />
+        <Route
+          path="/salSuizaBlanca"
+          element={<MainSalchichaSuizaBlanca />}
+          exact
+        />
+      {/* <Redirect from={"/menuViajero"} to={"/menuViajero"} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>

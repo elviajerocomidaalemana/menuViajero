@@ -79,7 +79,7 @@ const Header = (props: Props) => {
               "aria-labelledby": "basic-button",
             }}
           >
-            <Link className="link" to="/">
+            <Link className="link" to="/alemana">
               <MenuItem onClick={handleClose}>Alemanas</MenuItem>
             </Link>
             <Link className="link" to="/holanda">
