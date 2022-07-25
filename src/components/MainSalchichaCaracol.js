@@ -1,13 +1,15 @@
 // @flow
 import * as React from "react";
-import Item from "./Item";
+import ItemFood from "./ItemFood";
 import Grid from "@mui/material/Grid";
+import caracol from "../assets/img/salchichas/salchicha-caracol.jpg";
+
 
 const data = [
   {
     title: "Salchicha Caracol",
     image:
-      "",
+      caracol,
     description:
       "Salchicha elaborada con carne de ternera y cerdo y salsa de queso.",
     price: "$ 15.000",
@@ -18,7 +20,7 @@ type Props = {};
 const Row = (props) => {
   return (
     <Grid item xs sm={4}>
-      <Item data1={data} />
+      <ItemFood data1={data} />
     </Grid>
   );
 };
