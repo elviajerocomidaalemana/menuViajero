@@ -54,6 +54,7 @@ export default function DialogDescription(props: Props) {
               <Typography sx={{}} variant="subtitle1" align={"center"}>
                 {item.description}
               </Typography>
+
               <Typography
                 sx={{ marginTop: "25px" }}
                 variant="subtitle1"

@@ -2,17 +2,17 @@
 import * as React from "react";
 import ItemFood from "./ItemFood";
 import Grid from "@mui/material/Grid";
-import hamburgo from '../assets/img/hamburger/hamburguesa-hamburgo.jpg'
-
+import hamburgo from "../assets/img/hamburger/hamburguesa-hamburgo.jpg";
 
 const data = [
   {
     title: "Hamburguesa Hamburgo",
-    image:
-      hamburgo,
+    image: hamburgo,
     description:
       "Compuesta de nuestro pan artesanal, vegetales frescos de la casa: lechuga, tomate y cebolla caramelizada. 150gr de carne de res y cerdo combinados con especies propias del viajero.  La distingue el maíz tierno y un suculento queso mozzarella.",
-    price: "$ 17.000",
+    combo: true,
+    priceCombo: "$ 17.000",
+    priceOnly: "$ 14.000",
   },
 ];
 
@@ -25,7 +25,7 @@ const Row = (props) => {
   );
 };
 const MainHamburguesaHamburgo = (props: Props) => {
-  const {data} = props;
+  const { data } = props;
   return (
     <div>
       <Row data={data} />

@@ -35,14 +35,35 @@ export default function DialogDescriptionFoods(props: Props) {
             <Typography variant="subtitle1" align={"center"}>
               {item.description}
             </Typography>
-            <Typography
-              sx={{ marginTop: "25px" }}
-              variant="subtitle1"
-              color="text.secondary"
-              component="div"
-            >
-              {item.price}
-            </Typography>
+            {item.combo ? (
+              <Grid container justifyContent="space-between">
+                <Typography
+                  sx={{ marginTop: "25px" }}
+                  variant="subtitle1"
+                  color="text.secondary"
+                  component="div"
+                >
+                  Combo con papas fritas: {item.priceCombo}
+                </Typography>
+                <Typography
+                  sx={{ marginTop: "25px" }}
+                  variant="subtitle1"
+                  color="text.secondary"
+                  component="div"
+                >
+                  Sola: {item.priceOnly}
+                </Typography>
+              </Grid>
+            ) : (
+              <Typography
+                sx={{ marginTop: "25px" }}
+                variant="subtitle1"
+                color="text.secondary"
+                component="div"
+              >
+                {item.price} con papas fritas
+              </Typography>
+            )}
           </CardContent>
         </Grid>
       </DialogContent>
