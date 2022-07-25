@@ -9,7 +9,6 @@ const data = [
   {
     title: "Hamburguesa Hamburgo",
     image:
-      // "https://www.gastronosfera.com/sites/default/files/styles/dos_columnas/public/field/image/hamburguesa_slide.jpg?itok=-T8CyKP1",
       hamburgo,
     description:
       "Compuesta de nuestro pan artesanal, vegetales frescos de la casa: lechuga, tomate y cebolla caramelizada. 150gr de carne de res y cerdo combinados con especies propias del viajero.  La distingue el maíz tierno y un suculento queso mozzarella.",

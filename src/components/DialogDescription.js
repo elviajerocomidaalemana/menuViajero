@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 
 export default function DialogDescription(props: Props) {
   const { open, item } = props;
-console.log(item);
+  console.log(item);
   return (
     <Dialog fullWidth maxWidth={"sm"} open={open}>
       <DialogTitle>{item.title}</DialogTitle>
@@ -28,48 +28,32 @@ console.log(item);
             <CardMedia
               component="img"
               sx={{
-                width: '120px',
-                height: '250px',
+                width: "120px",
+                height: "250px",
                 borderRadius: "5px",
               }}
               image={item.image}
               alt="Descripcion"
             />
           </Grid>
-          <Grid item xs={9} sx={{
+          <Grid
+            item
+            xs={9}
+            sx={{
               display: "flex",
               justifyContent: "center",
-            }}>
+            }}
+          >
             <CardContent
               sx={{
-               
                 "&.MuiCardContent-root:last-child": {
                   padding: "20px auto 20px",
                 },
               }}
             >
-              <div
-                style={{
-                  // overflow: "hidden",
-                  // maxWidth: "155px",
-                  // height: "80px",
-                  // margin: "0 0 20px 0",
-                }}
-              >
-                <Typography
-                  sx={{
-                    // overflow: "hidden",
-                    // textOverflow: "ellipsis",
-                    // display: "-webkit-box",
-                    // WebkitLineClamp: "3",
-                    // WebkitBoxOrient: "vertical",
-                  }}
-                  variant="subtitle1"
-                  align={"center"}
-                >
-                  {item.description}
-                </Typography>
-              </div>
+              <Typography sx={{}} variant="subtitle1" align={"center"}>
+                {item.description}
+              </Typography>
               <Typography
                 sx={{ marginTop: "25px" }}
                 variant="subtitle1"

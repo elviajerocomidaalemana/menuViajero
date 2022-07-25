@@ -22,15 +22,9 @@ import MainSalchichaThuringer from "./components/MainSalchichaThuringer";
 import MainSalchichaCaracol from "./components/MainSalchichaCaracol";
 import MainSalchichaSuizaBlanca from "./components/MainSalchichaSuizaBlanca";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import * as useRouteMatch from "react-router";
-// import * as Redirect from "react-router-dom";
+
 
 const App = () => {
-  // const useRelativeUrl = () => {
-  //   const { url } = useRouteMatch();
-  //   return useCallback((path: string) => `${url}${path}`, [url]);
-  // };
-  // const relativeUrl = useRelativeUrl();
   return (
     <BrowserRouter>
       <Header />

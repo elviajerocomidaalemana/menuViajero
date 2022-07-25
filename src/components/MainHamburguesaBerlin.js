@@ -8,7 +8,6 @@ const data = [
   {
     title: "Hamburguesa Belin",
     image:
-      // "https://www.homeburgerbar.com/sites/default/files/imagenes/sobre-nosotros.png",
       berlin,
     description:
       "La número uno del Viajero. Compuesta por nuestro único pan artesanal, vegetales frescos: lechuga, tomate y cebolla caramelizada. 150gr de carne de res y cerdo combinados con especies propias del viajero, 100 gr de lomo de cerdo, más una tocineta ahumada y queso azul.",
