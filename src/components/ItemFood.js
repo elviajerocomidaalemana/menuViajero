@@ -6,9 +6,9 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import DialogDescription from "./DialogDescription";
+import DialogDescriptionFoods from "./DialogDescriptionFoods";
 
-export default function MediaControlCard(props) {
+export default function ItemFood(props) {
   const [open, setOpen] = useState(false);
   const [itemUnique, setItemUnique] = useState({});
 
@@ -18,6 +18,9 @@ export default function MediaControlCard(props) {
   const handleItem = (item) => {
     setItemUnique(item);
   };
+
+  const {data1}=props
+  console.log(data1);
 
   return (
     <>
@@ -33,7 +36,7 @@ export default function MediaControlCard(props) {
             <Card
               sx={{
                 display: "flex",
-                width: "250px",
+                width: "300px",
                 borderRadius: "10px",
                 cursor: "pointer",
               }}
@@ -41,7 +44,7 @@ export default function MediaControlCard(props) {
               <CardMedia
                 component="img"
                 sx={{
-                  width: 40,
+                  maxWidth: "200px",
                   margin: "10px 10px 10px 20px",
                   borderRadius: "5px",
                 }}
@@ -57,48 +60,18 @@ export default function MediaControlCard(props) {
                   alignItems: "center",
                 }}
               >
-                <CardContent
-                  sx={{
-                    "&.MuiCardContent-root:last-child": {
-                      padding: "20px auto 20px",
-                    },
-                  }}
+                <Typography
+                  sx={{ marginTop: "5px" }}
+                  variant="subtitle1"
+                  color="text.secondary"
+                  component="div"
                 >
-                  <div
-                    style={{
-                      overflow: "hidden",
-                      maxWidth: "155px",
-                      height: "80px",
-                      padding: "0 0 20px 0",
-                    }}
-                  >
-                    <Typography
-                      sx={{
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        display: "-webkit-box",
-                        WebkitLineClamp: "3",
-                        WebkitBoxOrient: "vertical",
-                      }}
-                      variant="subtitle1"
-                      align={"center"}
-                    >
-                      {item.description}
-                    </Typography>
-                  </div>
-                  <Typography
-                    sx={{ marginTop: "5px" }}
-                    variant="subtitle1"
-                    color="text.secondary"
-                    component="div"
-                  >
-                    {item.price}
-                  </Typography>
-                </CardContent>
+                  {item.price.slice(2,4)+' K'}
+                </Typography>
               </Box>
             </Card>
           </div>
-          {open && <DialogDescription open={open} item={itemUnique} />}
+          {open && <DialogDescriptionFoods open={open} item={itemUnique} />}
         </Button>
       ))}
     </>
