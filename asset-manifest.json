@@ -1,14 +1,25 @@
 {
   "files": {
     "main.css": "/menuViajero/static/css/main.d4836ffa.css",
-    "main.js": "/menuViajero/static/js/main.44b9fec8.js",
+    "main.js": "/menuViajero/static/js/main.0f374aed.js",
     "static/media/logo-viajero-orange.png": "/menuViajero/static/media/logo-viajero-orange.7528c1d8069a1281ae2c.png",
+    "static/media/hamburguesa-hamburgo.jpg": "/menuViajero/static/media/hamburguesa-hamburgo.432b6d54d2e539b94328.jpg",
+    "static/media/hamburguesa-berlin.jpg": "/menuViajero/static/media/hamburguesa-berlin.8aa670a14fee1f881f41.jpg",
+    "static/media/hamburguesa-franckfort.jpg": "/menuViajero/static/media/hamburguesa-franckfort.91b2b78324f9aa6278da.jpg",
+    "static/media/salchicha-nurnberger.jpg": "/menuViajero/static/media/salchicha-nurnberger.2de3b6e405d778e5dac0.jpg",
+    "static/media/salchicha-gruyere.jpg": "/menuViajero/static/media/salchicha-gruyere.5c78e1c1965bc4750a3b.jpg",
+    "static/media/hamburguesa-munich.jpg": "/menuViajero/static/media/hamburguesa-munich.a3c0d801c524a56aa136.jpg",
+    "static/media/salchicha-berner.jpg": "/menuViajero/static/media/salchicha-berner.1458a60a90be6a3286ef.jpg",
+    "static/media/salchicha-thuringer.jpg": "/menuViajero/static/media/salchicha-thuringer.02796704d9b8050a12f1.jpg",
+    "static/media/salchicha-engadiner.jpg": "/menuViajero/static/media/salchicha-engadiner.bf6d037d449108116899.jpg",
+    "static/media/salchicha-suiza-blanca.jpg": "/menuViajero/static/media/salchicha-suiza-blanca.bee383a5e9aa2e074c9e.jpg",
+    "static/media/salchicha-caracol.jpg": "/menuViajero/static/media/salchicha-caracol.ca1a712faa8eae8ba1fc.jpg",
     "index.html": "/menuViajero/index.html",
     "main.d4836ffa.css.map": "/menuViajero/static/css/main.d4836ffa.css.map",
-    "main.44b9fec8.js.map": "/menuViajero/static/js/main.44b9fec8.js.map"
+    "main.0f374aed.js.map": "/menuViajero/static/js/main.0f374aed.js.map"
   },
   "entrypoints": [
     "static/css/main.d4836ffa.css",
-    "static/js/main.44b9fec8.js"
+    "static/js/main.0f374aed.js"
   ]
 }
