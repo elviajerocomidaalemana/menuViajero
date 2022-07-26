@@ -51,7 +51,7 @@ const Footer = (props: Props) => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.rappi.com.co/?utm_campaign=GSEMB_REACH_WEB_ALL_CO_SEM_CO.000.01.100%20-%20Colombia%20-%20Rappi&utm_source=google&gclid=CjwKCAjw_ISWBhBkEiwAdqxb9oOIHr99ev7Tn_UAZLuhRIWJC5ynDyQMIjgvHIlvrbtddAJA0mgMbBoCqAgQAvD_BwE"
+              href="https://www.rappi.com.co/restaurantes/900265446?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
             >
               <img
                 style={{
