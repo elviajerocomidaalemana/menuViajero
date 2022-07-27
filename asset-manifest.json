@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/menuViajero/static/css/main.d4836ffa.css",
-    "main.js": "/menuViajero/static/js/main.00785bd0.js",
+    "main.js": "/menuViajero/static/js/main.960cf109.js",
     "static/media/Hofbrau-Munchner-Weisse.png": "/menuViajero/static/media/Hofbrau-Munchner-Weisse.22ee53bf536908a97b0e.png",
     "static/media/Fuller's-London-Pride.webp": "/menuViajero/static/media/Fuller's-London-Pride.dbaa547185389b86bd6f.webp",
     "static/media/Maredsous-Tripel.png": "/menuViajero/static/media/Maredsous-Tripel.c5f5ffe771d9e36df295.png",
@@ -50,16 +50,17 @@
     "static/media/salchicha-engadiner.jpg": "/menuViajero/static/media/salchicha-engadiner.bf6d037d449108116899.jpg",
     "static/media/Baltika6.webp": "/menuViajero/static/media/Baltika6.31f0a4d4c2548ebd18c6.webp",
     "static/media/BrewDog-Punk-IPA.png": "/menuViajero/static/media/BrewDog-Punk-IPA.a82648330a9d2e90c80c.png",
+    "static/media/Eichbaum-Extra-Stout.jpg": "/menuViajero/static/media/Eichbaum-Extra-Stout.a27ca05253bb2b8d24be.jpg",
     "static/media/salchicha-suiza-blanca.jpg": "/menuViajero/static/media/salchicha-suiza-blanca.bee383a5e9aa2e074c9e.jpg",
     "static/media/Aspall-Suffolk-Draught.webp": "/menuViajero/static/media/Aspall-Suffolk-Draught.23ba162eb4cd83b697f4.webp",
     "static/media/salchicha-caracol.jpg": "/menuViajero/static/media/salchicha-caracol.ca1a712faa8eae8ba1fc.jpg",
     "static/media/Bitburger-Premium.webp": "/menuViajero/static/media/Bitburger-Premium.1eb643425b91784fac88.webp",
     "index.html": "/menuViajero/index.html",
     "main.d4836ffa.css.map": "/menuViajero/static/css/main.d4836ffa.css.map",
-    "main.00785bd0.js.map": "/menuViajero/static/js/main.00785bd0.js.map"
+    "main.960cf109.js.map": "/menuViajero/static/js/main.960cf109.js.map"
   },
   "entrypoints": [
     "static/css/main.d4836ffa.css",
-    "static/js/main.00785bd0.js"
+    "static/js/main.960cf109.js"
   ]
 }
