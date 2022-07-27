@@ -8,7 +8,6 @@ const data = [
   {
     title: "Baltika 6",
     image:
-      // "https://elportalcervecero.com/wp-content/uploads/2021/11/Foto_Baltika_6-removebg.png",
       Baltika6,
     description:
       "Proviene de Rusia. Estilo Porter. De apariencia color negro, de cuerpo medio, espuma beige, sedosa al servirse, además alta que se disipa lentamente en el vaso. Una cerveza tradicional y elaborada con antiguas recetas inglesas, cuerpo alto y espuma blanca alta al servirse.",
