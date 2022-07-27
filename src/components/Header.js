@@ -32,8 +32,8 @@ const Header = (props: Props) => {
 
   const handleClose = () => {
     setAnchorEl(null);
-    setAnchorHamb(null)
-    setAnchorSal(null)
+    setAnchorHamb(null);
+    setAnchorSal(null);
   };
 
   return (
@@ -65,7 +65,7 @@ const Header = (props: Props) => {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
             onClick={handleClick}
-            sx={{}}
+            sx={{ color: "Black", fontSize: "18px", padding: 0 }}
             variant="text"
           >
             Cervezas
@@ -80,31 +80,36 @@ const Header = (props: Props) => {
             }}
           >
             <Link className="link" to="/alemana">
-              <MenuItem onClick={handleClose}>Alemanas</MenuItem>
+              <MenuItem
+                sx={{ color: "Black"}}
+                onClick={handleClose}
+              >
+                Alemanas
+              </MenuItem>
             </Link>
             <Link className="link" to="/holanda">
-              <MenuItem onClick={handleClose}>Holandesas</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Holandesas</MenuItem>
             </Link>
             <Link className="link" to="/rusia">
-              <MenuItem onClick={handleClose}>Rusas</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Rusas</MenuItem>
             </Link>
             <Link className="link" to="/escocia">
-              <MenuItem onClick={handleClose}>Escocia</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Escocia</MenuItem>
             </Link>
             <Link className="link" to="/belgica">
-              <MenuItem onClick={handleClose}>Belgica</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Belgica</MenuItem>
             </Link>
             <Link className="link" to="/inglaterra">
-              <MenuItem onClick={handleClose}>Inglesas</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Inglesas</MenuItem>
             </Link>
             <Link className="link" to="/australia">
-              <MenuItem onClick={handleClose}>Australianas</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Australianas</MenuItem>
             </Link>
             <Link className="link" to="/japon">
-              <MenuItem onClick={handleClose}>Japonesas</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Japonesas</MenuItem>
             </Link>
             <Link className="link" to="/republica_checa">
-              <MenuItem onClick={handleClose}>Republica Checa</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Republica Checa</MenuItem>
             </Link>
           </Menu>
         </Grid>
@@ -115,7 +120,7 @@ const Header = (props: Props) => {
             aria-haspopup="true"
             aria-expanded={openHamb ? "true" : undefined}
             onClick={handleClickHamb}
-            sx={{}}
+            sx={{ color: "Black", fontSize: "18px", padding: 0 }}
             variant="text"
           >
             Hamburguesas
@@ -130,27 +135,27 @@ const Header = (props: Props) => {
             }}
           >
             <Link className="link" to="/hberlin">
-              <MenuItem onClick={handleClose}>Berlín</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Berlín</MenuItem>
             </Link>
             <Link className="link" to="/hmunich">
-              <MenuItem onClick={handleClose}>Múnich</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Múnich</MenuItem>
             </Link>
             <Link className="link" to="/hfrancfort">
-              <MenuItem onClick={handleClose}>Fráncfort</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Fráncfort</MenuItem>
             </Link>
             <Link className="link" to="/hhamburgo">
-              <MenuItem onClick={handleClose}>Hamburgo</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Hamburgo</MenuItem>
             </Link>
           </Menu>
         </Grid>
-         <Grid sx={{ }} xs={8}>
+        <Grid sx={{}} xs={8}>
           <Button
             id="basic-button"
             aria-controls={openSal ? "basic-menu" : undefined}
             aria-haspopup="true"
             aria-expanded={openSal ? "true" : undefined}
             onClick={handleClickSal}
-            sx={{}}
+            sx={{ color: "Black", fontSize: "18px", padding: "0 0 20px 0" }}
             variant="text"
           >
             Salchichas
@@ -165,28 +170,28 @@ const Header = (props: Props) => {
             }}
           >
             <Link className="link" to="/salGruyere">
-              <MenuItem onClick={handleClose}>Gruyere</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Gruyere</MenuItem>
             </Link>
             <Link className="link" to="/salNurnberger">
-              <MenuItem onClick={handleClose}>Nûrnberger</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Nûrnberger</MenuItem>
             </Link>
             <Link className="link" to="/salEngadiner">
-              <MenuItem onClick={handleClose}>Engadiner</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Engadiner</MenuItem>
             </Link>
             <Link className="link" to="/salBerner">
-              <MenuItem onClick={handleClose}>Berner</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Berner</MenuItem>
             </Link>
             <Link className="link" to="/salThuringer">
-              <MenuItem onClick={handleClose}>Thûringer</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Thûringer</MenuItem>
             </Link>
             <Link className="link" to="/salCaracol">
-              <MenuItem onClick={handleClose}>Caracol</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Caracol</MenuItem>
             </Link>
             <Link className="link" to="/salSuizaBlanca">
-              <MenuItem onClick={handleClose}>Suiza Blanca</MenuItem>
+              <MenuItem sx={{ color: "Black"}} onClick={handleClose}>Suiza Blanca</MenuItem>
             </Link>
           </Menu>
-        </Grid> 
+        </Grid>
       </Grid>
       <Outlet />
     </Grid>

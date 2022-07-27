@@ -20,7 +20,7 @@ const data = [
       InnisGunnTheOriginal,
     description:
       "Ptoviene de Escocia. De color marrón brillante, ligera corona de espuma que se disipa rápidamente por la escasa carbonatación. Tiene una historia particular en su elaboración ya que se logró por «accidente». Una destilería de Escocia tenía como objetivo elaborar un Whisky con toques de cerveza al final y habló con el maestro cervecero Douglas Sharp. Se puso a la tarea y elaboró una cerveza, en la que el ingrediente del Whisky fue el éxito rotundo, pero la cerveza se estaba desaprovechado. (Cerveza con meses de maduración en barricas de roble americano que se tiraba por los desagües). Un día los empleados probaron dicha cerveza y les encantó. Allí había nacido la «Oack Beer Age». Finalmente lograron perfeccionar el proceso y la cerveza The Original se consolidó hasta nuestros días.",
-    price: "$ 20.000",
+    price: "$ 15.000",
   },
 ];
 

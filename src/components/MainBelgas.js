@@ -80,7 +80,7 @@ const data = [
       LiefmansGoudenband,
     description:
       "Cerveza exclusiva de alta fermentación, producida con técnicas artesanales y de fermentación especiales que le aportar a la cerveza un delicado y fino sabor, se puede conservar por 10 años, color café claro y espuma cobriza. Resultado de la mezcla de una cerveza añejada entre 4 y 12 meses en la bodega. Sabores agridulces a caramelo combinados con cerezas.",
-    price: "$ 20.000",
+    price: "$ 18.000",
   },
   {
     title: "Maredsous Blond",
@@ -88,7 +88,7 @@ const data = [
       MaredsousBlond,
     description:
       "Proveniente de Bélgica. De apariencia dorada, predomina su textura, cuerpo y aroma. Pertenece a la tradición de los monjes benedictinos y actualmente unas de las pocas Abadías que producen cerveza en el mundo. Espuma blanca, alta y densa al servirse.",
-    price: "$ 15.000",
+    price: "$ 18.000",
   },
   {
     title: "Maredsous Brune",
@@ -96,7 +96,7 @@ const data = [
       MaredsousBrune,
     description:
       "Proveniente de Bélgica. De apariencia oscura, espuma densa y alta. Alto contenido de alcohol y predomina su textura, cuerpo y sabor y actualmente una de las pocas abadías que producen cerveza en el mundo.",
-    price: "$ 20.000",
+    price: "$ 18.000",
   },
   {
     title: "Maredsous Tripel",
@@ -104,7 +104,7 @@ const data = [
       MaredsousTripel,
     description:
       "Proveniente de Bélgica. Cerveza tipo Belgian Tripel. De apariencia ámbar en la que predomina el cuerpo y sabor. Es actualmente una de las pocas abadías que producen cerveza en el mundo; de alto contenido de alcohol, bastante cuerpo, color dorado, espuma blanca y alta.",
-    price: "$ 15.000",
+    price: "$ 18.000",
   },
   {
     title: "St-Idesbald Blond",
@@ -112,7 +112,7 @@ const data = [
       StIdesbaldBlond,
     description:
       "Proveniente de Bélgica. Cerveza de color y aspecto dorado, espuma agradable y firme, aroma complejo en nariz, con notas de ginebra, lima, cilantro y lúpulo. Sabor amargo, fresco, ligeramente picante y equilibrado.",
-    price: "$ 20.000",
+    price: "$ 16.000",
   },
   {
     title: "Vedett Extra IPA",
@@ -120,7 +120,7 @@ const data = [
       VedettExtraIPA,
     description:
       "Proveniente de Bélgica.  Elaborada con cuatro lúpulos americanos y con proceso Dry-Hopping lo que le aporta aromas florales y herbales del lúpulo. De color anaranjado, espuma alta y sedosa beige. Se nota perfectamente al servirse en copa; aroma cítrico más notable a naranja, sutil durazno combinado con el lúpulo que se percibe cuando se destapa la botella; muy fresca, amargor moderado y dulzor ligero dado por la malta.",
-    price: "$ 15.000",
+    price: "$ 16.000",
   },
   {
     title: "Vedett Extra White",
@@ -128,7 +128,7 @@ const data = [
       VedettExtraWhite,
     description:
       "Proveniente de Bélgica. Supremamente refrescante de bajo cuerpo; color dorado pajizo que proporciona espuma blanca de retención media con notables burbujas al servirse. Aroma cítrico a limón, naranja y cilantro. Finaliza con un sabor ligeramente amargo y seco que combina la frescura y acidez del trigo y lo cítrico de las frutas.",
-    price: "$ 20.000",
+    price: "$ 16.000",
   },
 ];
 

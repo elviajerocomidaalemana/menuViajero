@@ -14,7 +14,7 @@ const data = [
       AdnamsInnovationIPA,
     description:
       "Proviene de Inglaterra. Estilo India Pale Ale. De color dorado, ligera y refrescante, notas cítricas y frutales, espuma blanca no tan densa y baja al servirse en copa.",
-    price: "$ 15.000",
+    price: "$ 18.000",
   },
   {
     title: "Fuller's London Pride",
@@ -22,7 +22,7 @@ const data = [
       FullersLondonPride,
     description:
       "Proveniente de Inglaterra. De color cobrizo y sin excesiva espuma, destaca por una suave base de malta y los delicados toques de las diversas variedades de lúpulo con las que se produce.",
-    price: "$ 20.000",
+    price: "$ 18.000",
   },
   {
     title: "Robinsons Trooper",
@@ -30,7 +30,7 @@ const data = [
       RobinsonsTrooper,
     description:
       "Proveniente de Inglaterra. Es una cerveza con un color dorado anaranjado con carbonatación ligera. Tiene un aroma dulce a caramelo y frutas, pan y lúpulo. Su sabor es ligeramente dulce de caramelo y frutas, lúpulo y un toque herbal. Tiene un final ligeramente amargo de los lúpulos. Está hecha a base de tres tipos de lúpulos. Trooper es una cerveza premium británica inspirada por Iron Maiden y artesanos de la cervecería Robinsons. Entusiasta de las Ale, el vocalista Bruce Dickinson ha desarrollado una cerveza que tiene verdadera profundidad de carácter. Sabores de malta y notas cítricas de una mezcla única de Bobec, Goldings y lúpulo Cascade dominan esta profunda ale dorada con un sutil toque de limón.",
-    price: "$ 15.000",
+    price: "$ 16.000",
   },
   {
     title: "Aspall Suffolk Draught",
